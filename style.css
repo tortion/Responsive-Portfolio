@@ -109,22 +109,46 @@
     border: 0px solid white;
   }
 
-  @media screen and (max-width: 640px) {
-    .topmenutype a {
-      width: 640px;
+  @media screen and (max-width: 768px) {
+    .topmenutype {
+      width: 753px;
     }
 
     .container {
-      width: 640px;
+      width: 753px;
     }
 
     .filler {
-      width: 640px;
+      width: 753px;
     }
 
     .bottommenutype {
-      width: 640px;
+      width: 753px;
+    }
+    
+    main {
+      width: 753px;
     }
   }
   
-  
+  @media screen and (max-width: 640px) {
+    .topmenutype {
+      width: 625px;
+    }
+
+    .container {
+      width: 625px;
+    }
+
+    .filler {
+      width: 625px;
+    }
+
+    .bottommenutype {
+      width: 625px;
+    }
+    
+    main {
+      width: 625px;
+    }
+  }
